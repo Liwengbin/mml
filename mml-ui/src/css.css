@@ -1,0 +1,10 @@
+ul{
+  padding: 0px;
+}
+.ml-padding{
+  padding: 5px;
+}
+
+.el-checkbox+.el-checkbox{
+  margin-left: 0px;
+}
