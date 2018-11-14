@@ -5,7 +5,7 @@ mml是类似于阿里云的机器学习平台,系统由两部分组成
 
 后端（mml-server）使用SpringBoot+MySQL构建
 
-访问地址：http://47.106.131.142/ml
+访问地址：http://vidanao.com/ml
 
 项目周期：未完成
 
