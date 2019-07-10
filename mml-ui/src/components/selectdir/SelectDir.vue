@@ -4,10 +4,14 @@
     <span @click="openClose" :class="[open ? 'ml-icon-wenjianjia-zhankai': 'ml-icon-wenjianjia-shouqi']"></span>
     <ul v-show="open"><ml-select-dir v-for="item in selectdir.children" :selectdir="item"></ml-select-dir></ul>
   </li>
+  <<el-tree></el-tree>
 </template>
 
 <script>
+  import ElTree from "../../../node_modules/element-ui/packages/tree/src/tree.vue";
+
   export default {
+    components: {ElTree},
     props:['selectdir'],
     name:"MlSelectDir",
     data() {

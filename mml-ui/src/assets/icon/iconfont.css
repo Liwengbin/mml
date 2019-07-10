@@ -7,14 +7,6 @@
   url('iconfont.svg?t=1519207369010#iconfont') format('svg'); /* iOS 4.1- */
 }
 
-.iconfont {
-  font-family:"iconfont" !important;
-  font-size:16px;
-  font-style:normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 [class^="ml-icon"], [class*=" ml-icon"] {
   font-family:"iconfont" !important;
   /* 以下内容参照第三方图标库本身的规则 */

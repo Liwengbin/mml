@@ -1,9 +1,9 @@
 export default(type = 'GET', url = '', data = {}, method = 'fetch') => {
   type = type.toUpperCase();
-  url = "http://120.25.152.214:8080/mlService"+url;
+  url = "http://vidanao.com:8080/mlService"+url;
   let mlHeaders = new Headers();
   mlHeaders.append('Accept','application/json');
-  mlHeaders.append('Access-Control-Allow-Origin','http://120.25.152.214:8080/mlService');
+  mlHeaders.append('Access-Control-Allow-Origin','*');
   mlHeaders.append('Access-Control-Allow-Credentials','true');
   mlHeaders.append('Accept-Charset' ,'utf-8');
   mlHeaders.append('Content-Type', 'application/x-www-form-urlencoded');
@@ -24,7 +24,7 @@ export default(type = 'GET', url = '', data = {}, method = 'fetch') => {
       method:type,
       Headers:{
         'Accept': 'application/json',
-        'Access-Control-Allow-Origin':'http://localhost:8080',
+        'Access-Control-Allow-Origin':'*',
         'Access-Control-Allow-Credentials': 'true',
         'Accept-Charset' : 'utf-8',
         'Content-Type': 'application/x-www-form-urlencoded'
